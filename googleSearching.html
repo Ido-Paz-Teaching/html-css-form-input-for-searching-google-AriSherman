@@ -1,0 +1,47 @@
+<html>
+    <body>
+        <title>Google search</title>
+    <link rel="stylesheet" href="googleSearching.css">
+    <form action="http://www.google.com/search?">
+        <div>
+        <label for="q">Search Text:</label><br>
+        </div>
+        <div>
+        <input type="text" id="q" name="q" value="" title="Enter text" placeholder="Enter text" required><br>
+        </div>
+        <div>
+            <label for="as_qdr">That was uptated in:</label><br> 
+        </div>
+        <div>
+            <select id="as_qdr" name="as_qdr" title="Please enter a time">
+              <option>Any time</option>
+              <option value="d">previous one day</option>
+              <option value="w">previous seven days</option>
+              <option value="m">previous month</option>
+              <option value="y">previous one year</option>
+            </select><br>
+        </div>
+        
+        <div>
+        <label for="num">Number of Results:</label><br>
+        </div>
+        <div>
+        <input type="number" id="num" name="num" min="01" max="25" value="" title="Number of Results" placeholder="Enter a number" required><br>
+        </div>
+
+        <div>
+        <label for="lr">Search only pages written in Hebrew:</label>
+        <input type="checkbox" id="lr" name="lr" value="lang_iw" title="Select a language">
+        </div>
+         
+ 
+
+        <div>
+        <button>Ask google</button>
+        </div>
+
+
+
+    </form>
+    </body>
+</html>
