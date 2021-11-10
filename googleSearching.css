@@ -1,6 +1,5 @@
 
 
-
 div {
     background-color: rgb(255, 255, 255);
     width: 300px;
@@ -14,7 +13,7 @@ input {
     padding: 1%;
   }
 
-  select {
+select {
     width: 90%;
     padding: 1%;
   }
@@ -31,9 +30,10 @@ input {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }*/
+  } */
 
   input[type=checkbox] {
     width: auto 
     
   }
+ 
